@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    color: #ffff;
+    margin: 0;
+    min-height: 100vh;
+    background-color:rgb(27, 27, 27);
+}
+.container {
+    background-color:rgb(20, 20, 20);
+    min-height: 100vh;
+    width: 70%;
+    padding: 0;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+.nav{
+    width:70%;
+    position: fixed;
+    display: flex;
+    background-color:rgb(24, 24, 24);
+    justify-content: space-between;
+}
+li{
+    text-transform: uppercase;
+}
+.nav ul{
+    margin-right: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    /* margin: 3px; */
+    list-style-type: none;
+}
+.nav a{
+    padding: 3px;
+    margin: 3px;
+    display:flex;
+    text-decoration: none;
+    color: white;
+
+
+}
+.logo{
+    padding: 5px;
+    margin-left: 1rem;
+    border-radius: 100px;
+    height: 50px;
+    width: auto;
+}
+p{
+    text-align: justify;
+}
+#home{
+    /* opacity: 0.5; */
+    padding-top: 15rem;
+    z-index: -1;
+    background-image:url("akhif.jpg");
+    height: 100vh;
+    color: rgb(104, 104, 104);
+}
+
+.shayla{
+    opacity: 1;
+    padding-top: 1rem;
+    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+}
+.about{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding:0px 30px;
+    padding-top: 2.5rem;
+    height: 100vh;
+    color: rgb(133, 133, 133);
+}
+.academics{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    height: 100vh;
+    color: rgb(133, 133, 133);
+    padding:0px 30px;
+    padding-top: 2.5rem;
+}
+.contact{
+    padding:0px 30px;
+    padding-top: 2.5rem;
+    height: 100vh;
+    color: rgb(133, 133, 133);
+
+}
+a:hover {
+    background-color: rgb(94, 94, 94);
+    color:rgb(255, 255, 255);
+    border-radius: 4px;
+  }
+  @media only screen and (max-width: 600px) {
+    .container {
+        background-color:rgb(20, 20, 20);
+        min-height: 100vh;
+        width: 100%;
+        padding: 0;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+    .nav{
+        width:100%;
+        position: relative;
+        display: list-item;
+        background-color:rgb(24, 24, 24);
+        justify-content: space-between;
+    }
+    .nav ul{
+        display: list-item;
+        list-style-type: none;
+    }
+    .gap{
+        height: 8rem;
+    }
+  }
