@@ -28,6 +28,10 @@ li a{
     color:aqua;
     text-decoration: none;
 }
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
 
 a{
     color:rgb(0, 0, 0);
@@ -39,6 +43,7 @@ a{
     height: 100vh;
     color:aquamarine;
     background-color:rgb(0, 11, 27);
+    padding-top:5%;
 }
 .top{
     background-color: aqua;
@@ -54,7 +59,7 @@ a{
 .logo{
     height: 70px;
     width: 70px;
-    padding: 5px;
+    margin:5px;
     border-radius: 50px;
 }
 .center {
@@ -72,63 +77,58 @@ a{
   }
 
 li:hover{
-    background-color:rgb(0, 2, 34);
-    color: rgb(172, 0, 0);
-}
+    background-color:rgb(70, 97, 255);
 
+}
+li a:hover{
+    color: cyan;
+}
 
 /* Media queries */
 
 @media only screen and (min-width: 1345px) {
     .nav{
+        /* position: fixed; */
         width:70%;
         margin-right: auto;
         margin-left: auto;
         display:flex;
         background-color:rgb(0, 18, 46);
         justify-content: space-between;
-
+        position: fixed;
+        top: 0;
+        left: 15%;
     }
-        
-    li a{
-        color:aqua;
-        text-decoration: none;
-        }
     ul{
-        padding: 0px;
-        margin:0px;
+        padding: 5px;
+        margin:5px;
         display: flex;
- 
         }
-    a{
-        color:rgb(0, 0, 0);
-        text-decoration: none;
-        
-        
-    }
     li{
-
+        /* background-color:rgb(0, 52, 136); */
+        border-radius: 10px;
         font-size: 1.5em;
-        text-align: center;
-        background-color:rgb(0, 29, 75);
-        margin:1px;
-        padding:10px 50px;
+        margin:5px;
+        padding:10px 30px;
         text-transform: uppercase;
         list-style-type:none;
         }
+        .logo{
+            margin: 10px;
+            padding:0px;
+        }
     .flex{
             display:block;
-   
         }
-        .fs{
-            width:70%;
-            height: 100vh;
-            margin-left: auto;
-            margin-right: auto;
-            color:aquamarine;
-            background-color:rgb(0, 11, 27);
-        }
-        .top{
-            margin-left:15.5%;
-        }
+    .fs{
+        width:70%;
+        /* height: 100vh; */
+        margin-left: auto;
+        margin-right: auto;
+        color:aquamarine;
+        background-color:rgb(0, 11, 27);
+    }
+    .top{
+        margin-left:15.5%;
+    }
 } 
