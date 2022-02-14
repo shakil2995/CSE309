@@ -145,6 +145,16 @@ li a:hover{
   .contact{
     background-image: url("img23.jpg");
   }
+  .footer{
+      margin-top: auto;
+      margin-bottom: auto;
+      padding-top:20px;
+      padding-bottom:20px;
+      text-align: center;
+      color: rgb(156, 156, 156);
+      width:70%;
+      background-color: rgb(37, 37, 37);
+  }
 /* Media queries */
 
 @media only screen and (min-width: 1290px) {
