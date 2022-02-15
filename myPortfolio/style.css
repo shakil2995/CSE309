@@ -85,7 +85,7 @@ li a:hover{
     color: cyan;
 }
 .home{
-    background-image: url("icon.jpg");
+    background-image: url("img/icon.jpg");
     min-height: 100vh;
     width:auto;
     background-attachment: fixed;
@@ -120,21 +120,21 @@ li a:hover{
       height: 15rem;
   }
   .home{
-    background-image: url("icon.jpg");
+    background-image: url("img/icon.jpg");
   }
   .intro{
-    background-image: url("img20.jpg");
+    background-image: url("img/img20.jpg");
   }
   .academics{
-    background-image: url("img21.jpg");
+    background-image: url("img/img21.jpg");
   
   }
   .services{
-    background-image: url("img22.jpg");
+    background-image: url("img/img22.jpg");
     height: 110vh;
   }
   .contact{
-    background-image: url("img23.jpg");
+    background-image: url("img/img23.jpg");
   }
   .footer{
       border-top: 1px solid gray;
@@ -224,7 +224,7 @@ li a:hover{
         margin-left:15.5%;
     }
     .home{
-        background-image:url("icon.jpg");
+        background-image:url("img/icon.jpg");
     }
     .footer{
         width:70%;
