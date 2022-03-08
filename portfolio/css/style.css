@@ -116,6 +116,11 @@ h4{
 .about-text{
 	width: 550px;
 }
+.w60{
+	width:60%;
+	margin-right: auto;
+	margin-left: auto;
+}
 .main{
 	width: 1130px;
 	max-width: 95%;
